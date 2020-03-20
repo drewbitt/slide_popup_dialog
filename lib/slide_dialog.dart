@@ -40,7 +40,7 @@ class _SlideDialogState extends State<SlideDialog> {
         child: Center(
           child: Container(
             width: deviceWidth,
-            height: deviceHeight / 1.5,
+            height: deviceHeight / 2.0,
             child: Material(
               color: widget.backgroundColor ??
                   Theme.of(context).dialogBackgroundColor,
